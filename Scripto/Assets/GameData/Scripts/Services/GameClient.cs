@@ -2,11 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameClient : MonoBehaviour {
-
-	private PositionService _positionService;
-	void Awake () 
+namespace Scripto
+{
+	public sealed class GameClient : MonoBehaviour
 	{
-		_positionService = new PositionService();
+		private static GameClient _instance;
+
+		public static LocationService Location { get; private set; }
+		private void Awake() 
+		{
+			if(_instance != null)
+			{
+				Debug.LogError("Only one instance of GameClient allowed");
+				return;
+			}
+			_instance = this;
+			Location = gameObject.AddComponent<LocationService>();
+			Location.Init();
+		}
+
+		private void Start()
+		{
+		}
 	}
 }
