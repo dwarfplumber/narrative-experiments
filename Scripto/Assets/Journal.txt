@@ -11,7 +11,7 @@ DREAM GOAL:
 
 
 Split out Standard assets needed. - DONE
+Create setup scene with Bot and controllable character prefabs - DONE
 
-Create setup scene with Bot and controllable character prefabs
 Create Sprite that appears/disappears on call over bot character's head.
 Get distance code working so you can chat to bot characters.
