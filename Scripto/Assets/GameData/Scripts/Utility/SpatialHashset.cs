@@ -40,12 +40,12 @@ public class SpatialHashset<T> where T : ISpatiallyKeyable
 
     private T Closest(Vector3 position, T neighbourA, T neighbourB)
     {
-        
+        return neighbourA; // TODO
     }
 
-    private T GetNearestNeighbour(Vector3 position, Dictionary<Vector3, List<T>> hashSetA)
+    private T GetNearestNeighbour(Vector3 position, Dictionary<Vector3, List<T>> hashSet)
     {
-        
+        return hashSet[Vector3.zero][0]; // TODO
     }
 
     private Vector3 HashFunction(Vector3 position, float offset)

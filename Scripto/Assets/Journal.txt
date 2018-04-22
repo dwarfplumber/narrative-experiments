@@ -1,0 +1,17 @@
+-- SUNDAY 22 April
+
+GOAL:
+    Create scene with controllable character that can walk around and interact with other characters
+    If within radius of other characters a prompt should appear above their head which will open a dialog
+
+DREAM GOAL:
+    Characters have a hearing range. If you just talk while you're next to them, they'll hear and respond.
+    This would involve both a chatbot integrated and voice recognition.
+
+
+
+Split out Standard assets needed. - DONE
+
+Create setup scene with Bot and controllable character prefabs
+Create Sprite that appears/disappears on call over bot character's head.
+Get distance code working so you can chat to bot characters.

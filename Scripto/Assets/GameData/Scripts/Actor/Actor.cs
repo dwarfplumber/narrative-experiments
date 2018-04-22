@@ -15,6 +15,11 @@ public class Actor : MonoBehaviour, ISpatiallyKeyable {
         _spatialKeySet = keys;
     }
 
+	public Vector3 GetPosition()
+    {
+        return transform.position;
+    }
+
     // Use this for initialization
     void Start () {
 		

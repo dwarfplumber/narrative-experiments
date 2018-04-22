@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/GameData/Scenes/CharacterSetup.unity
+- path: Assets/GameData/Scenes/CharacterThirdPerson.unity
   isLoaded: 1
   isActive: 1
