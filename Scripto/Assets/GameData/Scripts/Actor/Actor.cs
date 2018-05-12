@@ -29,7 +29,7 @@ namespace Scripto
 
         private void Start () 
         {
-            GameClient.Location.AddActor(this);
+            GameClient.AddActor(this);
         }
         
         private void Update () 

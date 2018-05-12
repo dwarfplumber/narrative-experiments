@@ -15,3 +15,36 @@ Create setup scene with Bot and controllable character prefabs - DONE
 
 Create Sprite that appears/disappears on call over bot character's head.
 Get distance code working so you can chat to bot characters.
+
+-- STAURDAY 5 MAY
+
+Integrate Watson Speech to Text services into the project
+Integrate Watson Conversation AI into the project
+Integrate Watson Text to Speech into the project
+
+-- CREDENTIALS: ASSISTANT
+
+{
+  "url": "https://gateway.watsonplatform.net/assistant/api",
+  "username": "fd2e9abe-32ef-458e-9f31-2b05607282ba",
+  "password": "lZjBDb4KCMk4"
+}
+
+-- CREDENTIALS: SPEECH TO TEXT
+
+{
+  "url": "https://stream.watsonplatform.net/speech-to-text/api",
+  "username": "55f1b3b5-daf8-443c-9fda-37ba0928b069",
+  "password": "eAKIfrLApTmV"
+}
+
+-- CREDENTIALS: TEXT TO SPEECH
+
+{
+  "url": "https://stream.watsonplatform.net/text-to-speech/api",
+  "username": "d0ece95d-d81d-4857-8841-b4d4f3d20961",
+  "password": "87bH0eifacpm"
+}
+
+- Hook up Speech Recognition into Test Scene with UI. - DONE
+- 
